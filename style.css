@@ -1,0 +1,59 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(119, 119, 206);
+    color: white;
+}
+
+body {
+
+}
+
+body h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+body p, span, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+#canvas {
+    border: 12px solid rgb(89, 89, 209);
+    background-color: white;
+    cursor: crosshair;
+}
+
+button {
+    border: none;
+    padding: 25px 15px 25px 15px;
+    background-color: rgb(89, 89, 209);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#settings-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+#setting-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#color-picker {
+    width: 50px;
+    height: 50px;
+}

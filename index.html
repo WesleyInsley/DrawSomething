@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Draw Something!</h1>
+    <canvas id="canvas"></canvas>
+
+    <div id="settings-box">
+        <button id="clear-canvas">Clear Canvas</button>
+        <div id="setting-container">
+            <p>Brush size: </p>
+            <input id="brush-range" type="range" min="1" max="100" value="10">
+            <p id="brush-size"></p>
+        </div>
+
+        <div id="setting-container">
+            <p>Brush color</p>
+            <input type="color" id="color-picker">
+        </div>
+    </div>
+
+    <div>
+        <a href="https://wesleyinsley.com/">Back To Main Page</a> | <a href="">GitHub</a>
+    </div>
+
+<!-- javascript tag -->
+<script src="/script.js"></script>
+</body>
+</html>
